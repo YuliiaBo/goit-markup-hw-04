@@ -188,18 +188,13 @@ img {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
-  background: var(--btn-background-colour);
+  background: var (--btn-background-colour);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .hero-btn:hover {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.19;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: var(--main-background-colour);
+  background: var(--btn-background-active);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .about {
@@ -241,7 +236,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-colour);
-  margin-bottom: 8px;
 }
 
 .section-item-pics {
@@ -264,6 +258,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 .soc-item {
   width: 40px;
